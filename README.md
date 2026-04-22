@@ -35,7 +35,7 @@ Es una herramienta que te ayuda a realizar un seguimiento de los cambios en los 
 
 ### Como instalar GIT?
 
-1. Ir a <a href="https://gitscm.com/install/" target="_blank"> **https://gitscm.com/install/**
+1. Ir a <a href="https://git-scm.com/install/" target="_blank"> **https://git-scm.com/install/**
 2. Seguir los pasos de instalación recomendados para tu S.O. 
 3. Verificar la correcta instalacion con **`git --version`**
 
