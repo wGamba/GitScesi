@@ -22,7 +22,16 @@ En este proyecto, aprenderé Git utilizando el repositorio como apuntes de clase
 
 Es una herramienta que te ayuda a realizar un seguimiento de los cambios en los archivos a lo largo del tiempo. Te permite revertir a versiones anteriores, colaborar con otros y gestionar diferentes versiones de tu código.
 
+### Como nacio GIT?
+* **1990**: Surgieron las primeras herramientas de control de versiones como RCS y CVS.
 
+* **2005**: <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank"> Linus Torvalds creó Git para el desarrollo del kernel de Linux.
+
+* **2008**: Se lanzó GitHub, impulsando la adopción de Git. Inicialmente se creó con Ruby.
+
+* **2018**: Microsoft adquirió GitHub, ampliando aún más su alcance.
+
+* **2025**: GitHub lidera el mercado con funciones basadas en IA y herramientas de colaboración avanzadas.
 
 
 
