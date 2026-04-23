@@ -78,6 +78,33 @@ En Git, un estado se refiere al estado de tus archivos en el proceso de control 
     alt="Git States">
 </p>
 
-### ¿Como hacer que el archivo que modifique vuelva a su estado original?
+#### ¿Como hacer que el archivo que modifique vuelva a su estado original?
 
 *`git restore <archivo>`**   borra físicamente el archivo modificado a su estado original
+
+#### ¿Cómo puedo dejar de rastrear un archivo?
+
+Crea un archivo `.gitignore` en tu proyecto y agrega los siguientes patrones para indicarle a Git qué archivos o carpetas debe ignorar:
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Descripción</th>
+      <th>Patron en .gitignore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ignorar todos los archivos <code>.log</code></td>
+      <td><code>*.log</code></td>
+    </tr>
+    <tr>
+      <td>Ignorar la carpeta <code>node_modules</code></td>
+      <td><code>node_modules/</code></td>
+    </tr>
+    <tr>
+      <td>Ignorar un archivo especifico</td>
+      <td><code>secrets.env</code></td>
+    </tr>
+  </tbody>
+</table>
