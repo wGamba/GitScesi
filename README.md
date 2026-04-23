@@ -77,3 +77,7 @@ En Git, un estado se refiere al estado de tus archivos en el proceso de control 
     <img src="assets/Git_states.png"
     alt="Git States">
 </p>
+
+### ¿Como hacer que el archivo que modifique vuelva a su estado original?
+
+*`git restore <archivo>`**   borra físicamente el archivo modificado a su estado original
