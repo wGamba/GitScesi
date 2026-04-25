@@ -459,3 +459,35 @@ git pull origin main
 ```bash
 git pull origin develop
 ```
+
+#### "Detached HEAD"
+
+1. **¿Qué significa?**
+
+Ocurre cuando haces:
+
+```bash
+git checkout <id-del-commit>
+```
+
+Git te mueve a un commit específico, pero no estás dentro de una rama.
+
+2. **¿Qué pasa aquí?**
+
+- Puedes revisar archivos antiguos
+- Puedes probar cambios
+- Pero si haces commits aquí, no estarán en una rama normal
+
+3. **Cómo salir de Detached HEAD**
+
+```bash
+git checkout main
+```
+
+4. **Guardar cambios desde Detached HEAD**
+
+```bash
+git checkout -b nueva-rama
+```
+
+Esto crea una nueva rama desde ese punto.
