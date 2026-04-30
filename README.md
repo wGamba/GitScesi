@@ -401,7 +401,7 @@ Crear un repositorio en GitHub es un proceso sencillo. Sigue estos pasos:
 8. **Verifica en GitHub**  
    Entra a tu repositorio y confirma que los archivos se hayan subido correctamente.
 
-## Clase 5
+## Clase 4
 
 ### ¿Cómo ir y volver de un commit?
 
@@ -531,7 +531,7 @@ Host github-trabajo
     IdentityFile ~/.ssh/id_ed25519_trabajo
 ```
 
-## Clase 4
+## Clase 5
 
 ### ¿Qué son las ramas?
 
