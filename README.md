@@ -751,3 +751,33 @@ git push -u origin rama
 ```
 
 ---
+
+### Flujo de trabajo (Sin Pull Requests)
+
+``` bash
+git checkout develop
+git fetch
+git pull origin develop
+
+git checkout rama  # Agrega -b si estás creando la rama
+git merge develop  # Solo si hubo cambios en develop
+
+# Trabajas en tu rama
+
+git push origin rama  # Agrega -u si es la primera vez
+
+git checkout develop
+git fetch
+git pull origin develop
+git merge --no-ff rama
+
+# Resuelves conflictos manualmente si existen
+git add .
+git commit
+
+# En nano:
+# Ctrl + O, Enter, Ctrl + X
+
+git branch -D rama
+git push origin develop
+```
