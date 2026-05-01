@@ -696,3 +696,18 @@ hotfix/api-timeout-emergency
 ```
 
 ---
+
+## Clase 6
+
+### ¿Qué es git merge?
+
+Merge significa fusión. Entonces `git merge` nos permite fusionar
+nuestras ramas en una sola para que ambas tengan los commits hechos.
+
+Se agrega el flag `--no-ff` (no fast forward), el cual evita que se
+pierda el historial de ramas y te obliga a hacer un commit de merge,
+manteniendo la trazabilidad incluso si luego borras la rama.
+
+---
+
+
