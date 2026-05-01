@@ -732,4 +732,22 @@ git pull origin rama
 
 ---
 
+### ¿Qué es git push?
 
+Es el comando que sube tus cambios al repositorio remoto en la rama
+correspondiente.
+
+También se usa con `origin` y el nombre de la rama:
+
+``` bash
+git push origin rama
+```
+
+Si no es tu repositorio, la primera vez que haces push de una rama debes
+usar el flag `-u`:
+
+``` bash
+git push -u origin rama
+```
+
+---
